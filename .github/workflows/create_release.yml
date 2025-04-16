@@ -16,8 +16,7 @@ jobs:
             - name: Checkout repo
               uses: actions/checkout@v4
               with:
-                  submodules: true
-                  ssh-key: ${{ secrets.PRODWINGTRA_SSH_KEY }}
+                  ssh-key: ${{ secrets.WINGTRA_ALL_REPOS_SSH_PRIVATE_KEY }}
 
             - name: Setup Python
               uses: actions/setup-python@v5
