@@ -8,7 +8,7 @@ dynamic = ["version"]
 readme = "README.md"
 license = {file = "LICENSE"}
 description = "RD6006 Power Supply Python Bindings"
-requires-python = ">=3.08"
+requires-python = ">=3.8"
 maintainers = [
     { name="Jasper Jonker", email="jasper.jonker@wingtra.com" },
 ]
