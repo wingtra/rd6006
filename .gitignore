@@ -2,3 +2,4 @@ build
 dist
 rd6006.egg-info
 rd6006/__pycache__
+rd6006/version.py

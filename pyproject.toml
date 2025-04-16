@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rd6006"
+dynamic = ["version"]
+readme = "README.md"
+license = {file = "LICENSE"}
+description = "RD6006 Power Supply Python Bindings"
+requires-python = ">=3.8"
+maintainers = [
+    { name="Jasper Jonker", email="jasper.jonker@wingtra.com" },
+]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: Apache Software License",
+	"Operating System :: OS Independent",
+]
+dependencies = [
+    "pyserial~=3.4",
+    "minimalmodbus~=2.1.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Baldanos/rd6006"

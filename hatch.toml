@@ -1,0 +1,20 @@
+[build]
+include = [
+    "rd6006/",
+	"README.md",
+]
+
+# Base the version on the git tag
+[version]
+source = "vcs"
+
+[version.raw-options]
+local_scheme = "node-and-date"
+version_scheme = "no-guess-dev"
+
+# Create a file with the version number in it
+[build.hooks.vcs]
+version-file = "rd6006/version.py"
+
+[metadata]
+allow-direct-references = true
